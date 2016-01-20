@@ -1,0 +1,19 @@
+
+<template name="Navigation">
+  
+  <Div class="navbar navbar-static-top"> <!-- creates horizontal a menu bar --> 
+  <Div class="navbar-inner">
+  <a class="brand" href="#">  </a>
+  <ul class="nav">
+  <li> <a href="{{pathFor 'Website'}}"></a> </li>
+  <li> <a href="{{pathFor 'Home'}}">Home</a> </li> <!-- Adds elements to the menu bar -->
+	 <li> <a href="{{pathFor 'Resume'}}">Resume </a> </li>
+	 <li> <a href="{{pathFor 'Hobbies'}}">Hobbies </a> </li>
+	 <li> <a href="{{pathFor 'Contact'}}">Contact </a> </li>
+	</ul>
+	</div>
+	</div>
+	<div class="container">
+     {{> yield}}	<!--Content appears within this layout -->
+  </div>
+</template>

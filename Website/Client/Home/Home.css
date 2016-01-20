@@ -1,0 +1,11 @@
+body { font: 300 16px/1.25 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #222; }
+
+			#page { position: absolute; top: 15%; right: 20%; bottom: 0; left: 20%; display: table; height: 100%; width: 60%; }
+			#page .page-inner { display: table-cell; vertical-align: middle; }
+			#page p { font-size: 42px; margin-bottom: 21px; }
+			#page p:last-child { margin-bottom: 0; }
+			#page a { text-decoration: none; }
+			#page a:link, #page a:visited { color: #d53f4a; }
+			#page a:hover { color: #222; border-bottom: 3px solid #ddd; }
+			#page a:active { color: #d53f4a; }
+			
